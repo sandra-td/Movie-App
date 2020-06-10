@@ -1,0 +1,86 @@
+.landing-page-intro {
+    height: 100vh;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    margin-top: -3rem;
+    z-index: -67;
+
+}
+.black-space {
+    height: 100vh;
+    width: 10%;
+}
+
+.landing-page-content {
+    position: relative;
+    
+
+}
+
+.info-landing {
+    position: absolute;
+    margin-top: 15rem;
+    left: 7%;
+    width: 35%;
+    
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    .cinemas-now {
+        font-size: 1.5rem;
+        margin-bottom: 1.6rem;
+    }
+    .overview-landing {
+        line-height: 1.4;
+        color: #fff;
+        font-weight: 400;
+    }
+}
+
+.landing-buttons {
+    display: flex;
+    justify-content: flex-start;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    span {
+        border: 1.5px solid #777;
+
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+        padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s;
+        .no-dec {
+            text-decoration: none;
+            color: #fff;
+           
+        }
+
+        
+        i {
+            margin-right: 0.5rem;
+            font-size: 0.9rem;
+        }
+        &:hover {
+            background-color: rgba(175, 174, 174, 0.555);
+            cursor: pointer;
+        }
+    }
+}
+
+.movies-start-pop{
+    border-top: 1px solid #888;
+    padding-top: 1.8rem;
+}
+

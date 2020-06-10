@@ -1,0 +1,47 @@
+.latest-movie-container {
+    background-color: #000;
+    width: 65vw;
+    @media (min-width: 1600px) {
+        width: 52vw;
+    }
+    height: 70vh;
+    @media (min-width: 1600px) {
+        height: 55vh;
+    }
+    margin: 2.5rem auto;
+    border-bottom: 0.7px solid #666;
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+        color: #888;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+.latest-info {
+    width: 60%;
+}
+
+.details-latest {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.latest-overview {
+    width: 90%;
+    margin-top: 2.5rem;
+    padding: 2rem 2rem;
+    color: #888;
+}
+
+.landing-buttons {
+    margin-top: 1.5rem;
+}

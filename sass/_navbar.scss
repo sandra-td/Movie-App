@@ -1,0 +1,132 @@
+@import 'variables';
+.navbar{
+    background:transparent;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 1.4rem;
+   align-items: center;
+z-index: 666;
+}
+
+.navbar-profile{
+    width: 15%;
+}
+
+.navbar2{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.nav-links-user{
+ display: flex;
+ flex-direction: column;
+ font-size: 1.3rem;
+ a{
+     color: #fff;
+     text-decoration: none;
+ }
+}
+
+.nav-link, .nav-link-user{
+    color: #fff;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    margin-left: 2rem;
+    border-bottom: 2px solid transparent;
+    
+
+    &:hover:not(.last-button){
+       cursor: pointer;
+       padding-bottom: 0.4rem;
+
+       border-bottom: 1px solid #fff;
+    }
+
+  
+}
+
+.nav-link{
+    font-size: 1.2rem;
+
+}
+
+.nav-link-user{
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.user-nav{
+    list-style: none;
+    display: flex;
+}
+
+
+.search{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input{
+        width: 100%;
+        font-family: inherit;
+        font-size: inherit;
+        // color: inherit; 
+        color: #fff;
+        // background-color: #f4f2f2a1;
+        background-color: transparent;
+        border:none;
+        padding: .2rem 2rem;
+        border-radius: 100px;
+        margin-right: -1.4rem;
+        text-align: left;
+        transition: all 0.3s;
+        &:focus{
+            outline: none;
+        background-color: #f4f2f2a1;
+        color:#444;
+       
+
+        }
+        &::-webkit-input-placeholder{
+            color: #fff;
+        }
+
+    }
+    input:focus + button {
+        margin-right: 0;
+        
+
+    }
+    button{
+        transition: all 0.3s;
+        
+        border:none;
+        display: inline-block;
+        background-color: transparent;
+        color: #fff;
+        font-weight: 200;
+        font-size: .8rem;
+        margin-right: 14rem;
+        margin-top: .2rem;
+        &:hover{
+            cursor: pointer;
+        }
+        &:focus{
+            outline: none;
+            // margin-right: 0;
+            input{
+                background-color: #f4f2f2a1;
+
+            }
+        }
+    }
+}
+

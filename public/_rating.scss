@@ -1,0 +1,20 @@
+.rating-container {
+    position: absolute;
+    z-index: 1000;
+    top: 6em;
+    left: 10em;
+    display: flex;
+    border: 1px solid #444;
+    border-radius: 3px;
+    padding: 0.5em;
+    background-color: black;
+}
+
+.rating-input {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 0.2s;
+}

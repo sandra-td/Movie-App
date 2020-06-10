@@ -1,0 +1,14 @@
+// checking = async() => {
+//     await axios({
+//         method: 'get',
+//         url: 'http://localhost:3001/api/login'
+//         // headers: {
+//         //     'Content-type': 'application/json',
+//         //     Accept: 'application/json',
+//         //     'Authorization': 8966473
+//         // }
+//     }).then(response => {
+//         console.log(response, "my own, checkingdadada")})
+//         .catch(error => console.log(error, "newwww"))
+
+//     }

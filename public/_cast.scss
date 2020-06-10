@@ -1,0 +1,98 @@
+.cast-container {
+    background-color: #000;
+    width: 65vw;
+    @media (min-width: 1600px) {
+        width: 52vw;
+    }
+    margin: 2.5rem auto;
+    border-bottom: 0.7px solid #666;
+
+    h3 {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+.cast-list {
+    display: flex;
+}
+
+.cast-member-card {
+    margin-top: 30px;
+    margin-right: 1.2rem;
+    width: 185px;
+    padding-bottom: 20px;
+    color: #fff;
+    opacity: 0.85;
+    transition: all 0.3s;
+
+    .image-container {
+        position: relative;
+
+        img {
+            border-radius: 4px;
+        }
+
+        .overlay-green {
+            position: absolute;
+            background-color: rgba(38, 166, 91, 0.438);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            animation: fadeIn 0.2s;
+        }
+
+        & > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        20% {
+            opacity: 0.1;
+        }
+
+        50% {
+            opacity: 0.3;
+        }
+
+        100% {
+            opacity: 0.4;
+        }
+    }
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.cast-info {
+    padding-top: 0.9rem;
+    margin-bottom: 2rem;
+    p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 0.8rem;
+        color: #888;
+    }
+}

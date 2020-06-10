@@ -1,0 +1,36 @@
+.notification {
+    position: absolute;
+    font-size: 1.1rem;
+    top: 0.3em;
+    left: 15em;
+    z-index: 1000;
+    animation: moveInUpwards 0.3s ease;
+}
+@keyframes moveInUpwards {
+    0% {
+        opacity: 0;
+        font-size: 0.1rem;
+    }
+    20% {
+        font-size: 0.2rem;
+    }
+
+    40% {
+        font-size: 0.4rem;
+    }
+    60% {
+        font-size: 0.6rem;
+    }
+    70% {
+        font-size: 0.8rem;
+    }
+
+    80% {
+        font-size: 1.1rem;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 1rem;
+    }
+}

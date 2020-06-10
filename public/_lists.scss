@@ -1,0 +1,206 @@
+//lists
+
+.user-list-container {
+    width: 60vw;
+    margin-left: 10%;
+    border-bottom: 1px solid #888;
+    padding-bottom: 2rem;
+    .search-list-results {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.user-list-header {
+    border-top: 1px solid #888;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.user-list {
+    border-top: 1px solid #888;
+    width: 100%;
+    padding-top: 1.5rem;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .my-list-item {
+        background-color: #191919;
+        margin-bottom: 1rem;
+        padding: 0.9rem 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        p {
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            background-color: #252525;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding-bottom: 0.2rem;
+            border-bottom: 0.8px solid transparent;
+            transition: all 0.3s;
+            &:hover {
+                border-bottom: 0.8px solid #fff;
+            }
+        }
+    }
+}
+
+.button-link {
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 0.6rem 1.6rem;
+    transition: all 0.3s;
+    &:hover {
+        background-color: #252525;
+        cursor: pointer;
+    }
+}
+
+// .search-profile-input:focus + .movie-add-results{
+//     display: block;
+// }
+
+.form-new-list {
+    width: 80%;
+    div {
+        margin-top: 1rem;
+        label {
+            display: block;
+            padding-bottom: 0.4rem;
+        }
+        input {
+            width: 100%;
+            border-radius: 4px;
+            border: none;
+            height: 1.6rem;
+        }
+        textarea {
+            width: 100%;
+        }
+
+        input,
+        textarea {
+            color: #444;
+            font-family: inherit;
+            font-size: 1.1rem;
+        }
+    }
+    button {
+        margin-top: 2rem;
+        display: block;
+        outline: none;
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.add-movies-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    form {
+        input {
+            border-radius: 4px;
+            border: none;
+            height: 1.6rem;
+            font-family: inherit;
+            color: #444;
+            transition: all 0.3s;
+            &:focus {
+                border: 2px solid #888;
+                border-radius: 4px;
+                height: 2rem;
+            }
+        }
+
+        button {
+            margin-left: 1rem;
+            color: #fff;
+            outline: none;
+            padding: 0.4rem 1rem;
+            background-color: transparent;
+            border: 1px solid #888;
+            border-radius: 4px;
+            transition: all 0.3s;
+
+            &:hover {
+                background-color: #252525;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.edit-list-container {
+    width: 100%;
+
+    .search-list {
+        width: 80%;
+        input {
+            width: 60%;
+        }
+        ::placeholder {
+            padding-left: 0.2rem;
+        }
+    }
+
+    .search-list-results {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15%;
+    }
+}
+
+.inner-card-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .icon-card {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+        position: absolute;
+        right: 0.7rem;
+        bottom: -0.6rem;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.another {
+    margin-left: 15%;
+}
+
+.user-list-header-btns {
+    span {
+        margin-left: 1rem;
+        //    border: 1px solid #888;
+        //    padding: .6rem .8rem;
+        //    border
+    }
+}
+
+.top-border {
+    border-top: 1px solid #888;
+}
